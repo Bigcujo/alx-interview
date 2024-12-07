@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Solution to the Island perimter problem in alx-task"""
 def island_perimeter(grid):
+    """function called island_perimeter to solve the problem"""
     rows = len(grid)
     culs = len(grid[0])
     perimeter = 0
